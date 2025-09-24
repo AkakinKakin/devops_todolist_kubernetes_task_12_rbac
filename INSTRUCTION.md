@@ -54,7 +54,7 @@ kubectl get deployment -n todoapp -o yaml | grep serviceAccountName
 ```
 Expected output:
 ```
-serviceAccountName: secrets-reader
+serviceAccountName: secret-reader
 ```
 ---
 ## 5. List Secrets from the Pod
